@@ -1,2 +1,6 @@
 # pycharm files
 .idea/
+
+# packaging
+*.egg-info/
+dist/
