@@ -141,7 +141,7 @@ def fetch(url_or_path):
 
 def save_url_to_file(url, file):
     """save content of URL to file."""
-    # TODO(dan): Factor out with 'fetch' above
+    # TODO: Factor out with 'fetch' above
     response = requests.get(url)
     if response.status_code != 200:
         raise Exception(f"Couldn't load {url}")
